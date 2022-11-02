@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Music library</title>
+  </head>
+  <body>
+    <div class="container-fluid p-0">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="https://www.logo.wine/a/logo/Apple_Music/Apple_Music-Logo.wine.svg"
+            width="65px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Browse</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Albums
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Favorite Album</a>
+                <a class="dropdown-item" href="#">Worst Album</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Random Album</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container mt-xl-5">
+      <div class="row row-cols-4">
+        <div class="mb-3 col-12 col-sm-6 col-md-4 col-xl-3">
+          <div class="card">
+            <img
+              src="https://cocogist.com/wp-content/uploads/2020/11/A-Better-Time-official-photograph-3.jpg"
+              class="card-img-top"
+              alt="Davido cover"
+            />
+            <div class="card-body">
+              <h5 class="card-title">A Better Time</h5>
+              <p class="card-text">Artist: Davido</p>
+              <p class="card-text">Genre: Afrobeat</p>
+              <audio controls>
+                <source
+                  src="https://cdn.trendybeatz.com/audio/Davido-ft-Nicki-Minaj-Holy-Ground-(TrendyBeatz.com).mp3"
+                  type="audio/mpeg"
+                />
+              </audio>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+          <div class="card">
+            <img
+              src="https://i.scdn.co/image/ab67616d0000b2732478dc2c748ca04cd0b56711"
+              class="card-img-top"
+              alt="tems cover"
+            />
+            <div class="card-body">
+              <h5 class="card-title">These Days</h5>
+              <p class="card-text">Artist: Tems</p>
+              <p class="card-text">Genre: R&B/Soul</p>
+
+              <audio controls>
+                <source
+                  src="https://cdn.tonpeak.com/wp-content/uploads/2022/08/Tems_-_Damages_Tonpeak.mp3"
+                  type="audio/mpeg"
+                />
+              </audio>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+          <div class="card">
+            <img
+              src="https://grmdaily.com/wp-content/uploads/2021/08/wizkid-made-in-lagos-deluxe.jpeg"
+              class="card-img-top"
+              alt=" Wizkid cover"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Made In Lagos</h5>
+              <p class="card-text">Artist: Wizkid</p>
+              <p class="card-text">Genre: Worldwide</p>
+
+              <audio controls>
+                <source
+                  src="https://cdn.tonpeak.com/wp-content/uploads/2022/08/Tems_-_Damages_Tonpeak.mp3"
+                  type="audio/mpeg"
+                />
+              </audio>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+          <div class="card">
+            <img
+              src="https://media.pitchfork.com/photos/62bdd2cb9e0c39ec09d73fd7/master/pass/Beyonce-Renaissance.jpg"
+              class="card-img-top"
+              alt="Beyonce cover"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Renaissance</h5>
+              <p class="card-text">Artist: Beyonce</p>
+              <p class="card-text">Genre: Pop</p>
+
+              <audio controls>
+                <source
+                  src="https://cdn.trendybeatz.com/audio/Davido-ft-Nicki-Minaj-Holy-Ground-(TrendyBeatz.com).mp3"
+                  type="audio/mpeg"
+                />
+              </audio>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <section class="mt-4">
+        <img
+          src="https://i.pinimg.com/564x/71/f5/27/71f5275fd213a9ee0331ad6e45a5cc8e.jpg"
+          width="100%"
+          alt="Tems Cover"
+        />
+        <h5 class="card-title">Damages</h5>
+        <p class="card-text">Artist: Tems</p>
+        <p class="card-text">Record Label: Leading Vibe Ltd</p>
+        <p class="card-text">Duration: 7 songs, 45 min</p>
+        <p class="card-text">Genre: R&B/Soul</p>
+
+        <table class="table table-dark">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Tracklist</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Interference</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Ice T</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Free Mind</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Temilade Interlude</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Higher</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Damages</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Thw Key/td></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
