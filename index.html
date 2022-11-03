@@ -11,77 +11,76 @@
       integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
       crossorigin="anonymous"
     />
-    <link rel=”stylesheet”
-    href=”https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css”
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
     />
     <link rel="stylesheet" href="./style.css" />
     <title>Music library</title>
   </head>
   <body>
-    <div class="container-fluid p-0">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"
-          ><img
-            src="https://www.logo.wine/a/logo/Apple_Music/Apple_Music-Logo.wine.svg"
-            width="65px"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"
+        ><img
+          src="https://www.logo.wine/a/logo/Apple_Music/Apple_Music-Logo.wine.svg"
+          width="65px"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Browse</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Albums
-              </a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Random Albums</a>
-                <a class="dropdown-item" href="#">Favorite Album</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Worst Album</a>
-              </div>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input
-              class="form-control mr-sm-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-              Search
-            </button>
-          </form>
-        </div>
-      </nav>
-    </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Browse</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Albums
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Random Albums</a>
+              <a class="dropdown-item" href="#">Favorite Album</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Worst Album</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
 
     <div class="container mt-xl-5">
-      <h2>Random Albums</h2>
+      <h2 class="mb-4">Random Albums</h2>
       <div class="row row-cols-4">
         <div class="mb-3 col-12 col-sm-6 col-md-4 col-xl-3">
           <div class="card">
@@ -253,8 +252,8 @@
       </div>
     </div>
 
-    <div class="container">
-      <h2>Favorite Album</h2>
+    <div class="container mt-4">
+      <h2 class="mb-4">Favorite Album</h2>
 
       <div class="row">
         <div class="col-sm-6">
@@ -280,8 +279,7 @@
             freedom from a love affair on the tropical-sounding “Damages”.
           </p>
           <button type="button" class="btn btn-danger btn-sm">
-            <i class="bi bi-play-fill"></i>
-            Play
+            <i class="bi bi-play-fill"></i>Play
           </button>
           <button type="button" class="btn btn-danger btn-sm">Shuffle</button>
         </div>
@@ -416,141 +414,136 @@
     </div>
 
     <div class="container mt-4">
-      <h2>Album Tapestry</h2>
+      <h2 class="mb-4">Album Tapestry</h2>
 
-      <div
-        class="row no-gutters justify-content-center mb-3"
-        id="tapestry-image"
-      >
-        <div class="col-xs-2 col-sm-2 col-md-2 col-xl-2">
-          <img
-            src="https://i.pinimg.com/736x/ba/6a/62/ba6a626f9d97d29076095516767ee2be.jpg"
-            width="150px"
-          />
-        </div>
-        <div class="col-xs-2 col-sm-2 col-md-2 col-xl-2">
-          <img
-            src="https://i.pinimg.com/originals/2d/7b/1b/2d7b1bc39f068778d2fc74ccc7a50ced.jpg"
-            width="150px"
-          />
-        </div>
-        <div class="col-xs-2 col-sm-2 col-md-2 col-xl-2">
-          <img
-            src="https://cdn11.bigcommerce.com/s-8e25iavqdi/images/stencil/1280x1280/products/8167/7955/only-girl-in-the-world-album-cover-sticker__36794.1539263636.jpg?c=2"
-            width="150px"
-          />
-        </div>
-        <div class="col-xs-2 col-sm-2 col-md-2 col-xl-2">
-          <img
-            src="https://i.pinimg.com/originals/3c/b7/80/3cb7809f70d3af62cc4083c61c0f0804.jpg"
-            width="150px"
-          />
-        </div>
-        <div class="col-xs-2 col-sm-2 col-md-2 col-xl-2">
-          <img
-            src="https://i.scdn.co/image/ab67616d0000b2734df3245f26298a1579ecc321"
-            width="150px"
-          />
-        </div>
-        <div class="col-xs-2 col-sm-2 col-md-2 col-xl-2">
-          <img
-            src="https://i.etsystatic.com/20063711/r/il/87f895/2700631060/il_fullxfull.2700631060_lliq.jpg"
-            width="150px"
-          />
-        </div>
-        <div class="col-xs-2 col-sm-2 col-md-2 col-xl-2">
-          <img
-            src="https://i.scdn.co/image/ab67616d0000b273b8df18614205552b43aa30ef"
-            width="150px"
-          />
-        </div>
-        <div class="col-xs-2 col-sm-2 col-md-2 col-xl-2">
-          <img
-            src="https://media.premiumtimesng.com/wp-content/files/2020/08/Burna-Boy-5th-Album-Cover-Art.jpg"
-            width="150px"
-          />
-        </div>
-        <div class="col-xs-2 col-sm-2 col-md-2 col-xl-2">
-          <img
-            src="https://media.pitchfork.com/photos/5952a6f4ca3b1247f114e86f/1:1/w_600/djkhaled.jpg"
-            width="150px"
-          />
-        </div>
-        <div class="col-xs-2 col-sm-2 col-md-2 col-xl-2">
-          <img
-            src="https://media.pitchfork.com/photos/60c37d2c42a3ecb7ba10112b/1:1/w_2100,h_2100,c_limit/Doja-Cat.jpg"
-            width="150px"
-          />
-        </div>
-        <div class="col-xs-2 col-sm-2 col-md-2 col-xl-2">
-          <img
-            src="https://i.scdn.co/image/ab6761610000e5eb1d3357f91de16a31b194ed32"
-            width="150px"
-          />
-        </div>
-        <div class="col-xs-2 col-sm-2 col-md-2 col-xl-2">
-          <img
-            src="https://pbs.twimg.com/media/ElfIGarXEAEsq-j?format=jpg&name=900x900"
-            width="150px"
-          />
-        </div>
-        <div class="col-xs-2 col-sm-2 col-md-2 col-xl-2">
-          <img
-            src="https://cdna.artstation.com/p/assets/images/images/028/267/382/large/camille-vialet-pop-smoke-shoot-for-the-star-aim-for-the-moon-5.jpg?1593979570"
-            width="150px"
-          />
-        </div>
-        <div class="col-xs-2 col-sm-2 col-md-2 col-xl-2">
-          <img
-            src="https://i.pinimg.com/originals/cc/02/35/cc023597e65ec1ab103c960a5ca19ccf.jpg"
-            width="150px"
-          />
-        </div>
-        <div class="col-xs-2 col-sm-2 col-md-2 col-xl-2">
-          <img
-            src="https://poprescue.files.wordpress.com/2021/09/celine-dion-2007-taking-chances-album-cover.jpg"
-            width="150px"
-          />
-        </div>
-        <div class="col-xs-2 col-sm-2 col-md-2 col-xl-2">
-          <img
-            src="https://www.udiscovermusic.com/wp-content/uploads/2020/05/jhene-aiko-chilombo-deluxe.jpg"
-            width="150px"
-          />
-        </div>
-        <div class="col-xs-2 col-sm-2 col-md-2 col-xl-2">
-          <img
-            src="https://www.rollingstone.com/wp-content/uploads/2018/06/rs-12335-drake-624-1377173952.jpg?w=624"
-            width="150px"
-          />
-        </div>
-        <div class="col-xs-2 col-sm-2 col-md-2 col-xl-2">
-          <img
-            src="https://www.levelman.com/content/images/2022/08/father-of-asahd-dj-khaled.jpg"
-            width="150px"
-          />
-        </div>
-        <div class="col-xs-2 col-sm-2 col-md-2 col-xl-2">
-          <img
-            src="https://imgix.ranker.com/user_node_img/50094/1001872472/original/trip-photo-u1?auto=format&q=60&fit=crop&fm=pjpg&dpr=2&w=375"
-            width="150px"
-          />
-        </div>
-        <div class="col-xs-2 col-sm-2 col-md-2 col-xl-2">
-          <img
-            src="https://www.bbc.co.uk/staticarchive/aa1aa3cadc9497371d0bc266263c3ccaab935775.jpg"
-            width="150px"
-          />
-        </div>
-        <div class="col-xs-2 col-sm-2 col-md-2 col-xl-2">
-          <img src="" width="150px" />
-        </div>
-        <div class="col-xs-2 col-sm-2 col-md-2 col-xl-2">
-          <img
-            src="https://images.complex.com/complex/images/c_fill,dpr_auto,f_auto,q_90,w_1400/fl_lossy,pg_1/uxnw7ouwrffnwzzb6s6q/chris-brown-indigo-stream"
-            width="150px"
-          />
-        </div>
+      <div class="row-12" id="tapestry-image">
+        <img
+          src="https://i.pinimg.com/736x/ba/6a/62/ba6a626f9d97d29076095516767ee2be.jpg"
+          width="150px"
+          height="150px"
+        />
+
+        <img
+          src="https://i.pinimg.com/originals/2d/7b/1b/2d7b1bc39f068778d2fc74ccc7a50ced.jpg"
+          width="150px"
+          height="150px"
+        />
+
+        <img
+          src="https://cdn11.bigcommerce.com/s-8e25iavqdi/images/stencil/1280x1280/products/8167/7955/only-girl-in-the-world-album-cover-sticker__36794.1539263636.jpg?c=2"
+          width="150px"
+          height="150px"
+        />
+
+        <img
+          src="https://i.pinimg.com/originals/3c/b7/80/3cb7809f70d3af62cc4083c61c0f0804.jpg"
+          width="150px"
+          height="150px"
+        />
+
+        <img
+          src="https://i.scdn.co/image/ab67616d0000b2734df3245f26298a1579ecc321"
+          width="150px"
+          height="150px"
+        />
+
+        <img
+          src="https://i.etsystatic.com/20063711/r/il/87f895/2700631060/il_fullxfull.2700631060_lliq.jpg"
+          width="150px"
+          height="150px"
+        />
+
+        <img
+          src="https://i.scdn.co/image/ab67616d0000b273b8df18614205552b43aa30ef"
+          width="150px"
+          height="150px"
+        />
+
+        <img
+          src="https://media.premiumtimesng.com/wp-content/files/2020/08/Burna-Boy-5th-Album-Cover-Art.jpg"
+          width="150px"
+          height="150px"
+        />
+
+        <img
+          src="https://media.pitchfork.com/photos/5952a6f4ca3b1247f114e86f/1:1/w_600/djkhaled.jpg"
+          width="150px"
+          height="150px"
+        />
+
+        <img
+          src="https://media.pitchfork.com/photos/60c37d2c42a3ecb7ba10112b/1:1/w_2100,h_2100,c_limit/Doja-Cat.jpg"
+          width="150px"
+          height="150px"
+        />
+
+        <img
+          src="https://i.scdn.co/image/ab6761610000e5eb1d3357f91de16a31b194ed32"
+          width="150px"
+          height="150px"
+        />
+
+        <img
+          src="https://pbs.twimg.com/media/ElfIGarXEAEsq-j?format=jpg&name=900x900"
+          width="150px"
+          height="150px"
+        />
+
+        <img
+          src="https://cdna.artstation.com/p/assets/images/images/028/267/382/large/camille-vialet-pop-smoke-shoot-for-the-star-aim-for-the-moon-5.jpg?1593979570"
+          width="150px"
+          height="150px"
+        />
+
+        <img
+          src="https://i.pinimg.com/originals/cc/02/35/cc023597e65ec1ab103c960a5ca19ccf.jpg"
+          width="150px"
+          height="150px"
+        />
+
+        <img
+          src="https://poprescue.files.wordpress.com/2021/09/celine-dion-2007-taking-chances-album-cover.jpg"
+          width="150px"
+          height="150px"
+        />
+
+        <img
+          src="https://www.udiscovermusic.com/wp-content/uploads/2020/05/jhene-aiko-chilombo-deluxe.jpg"
+          width="150px"
+          height="150px"
+        />
+
+        <img
+          src="https://www.rollingstone.com/wp-content/uploads/2018/06/rs-12335-drake-624-1377173952.jpg?w=624"
+          width="150px"
+          height="150px"
+        />
+
+        <img
+          src="https://www.levelman.com/content/images/2022/08/father-of-asahd-dj-khaled.jpg"
+          width="150px"
+          height="150px"
+        />
+
+        <img
+          src="https://imgix.ranker.com/user_node_img/50094/1001872472/original/trip-photo-u1?auto=format&q=60&fit=crop&fm=pjpg&dpr=2&w=375"
+          width="150px"
+          height="150px"
+        />
+
+        <img
+          src="https://www.bbc.co.uk/staticarchive/aa1aa3cadc9497371d0bc266263c3ccaab935775.jpg"
+          width="150px"
+          height="150px"
+        />
+
+        <img src="" width="150px" />
+
+        <img
+          src="https://images.complex.com/complex/images/c_fill,dpr_auto,f_auto,q_90,w_1400/fl_lossy,pg_1/uxnw7ouwrffnwzzb6s6q/chris-brown-indigo-stream"
+          width="150px"
+          height="150px"
+        />
       </div>
     </div>
 
