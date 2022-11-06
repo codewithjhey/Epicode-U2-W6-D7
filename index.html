@@ -459,6 +459,7 @@
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title">Add A track?</h5>
+
               <button
                 id="close"
                 type="button"
@@ -466,9 +467,8 @@
                 data-dismiss="modal"
                 aria-label="Close"
               >
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
-            </button>
+              </button>
             </div>
 
             <div class="modal-body">
@@ -484,13 +484,13 @@
             </div>
 
             <div class="modal-footer">
-              <button id="yes" type="button" class="btn btn-danger">
+              <button id="yes" type="button" class="btn btn-primary">
                 Add track
               </button>
               <button
                 id="nope"
                 type="button"
-                class="btn btn-primary"
+                class="btn btn-secondary"
                 data-dismiss="modal"
               >
                 Close
@@ -806,13 +806,13 @@
 
       //Track add with Modal
       let modal = document.getElementById("modalBox")
-      let addbtn = document.getElementById("addtrack")
+      let addBtn = document.getElementById("addtrack")
 
       const getModal = () => {
         modal.classList.add("displayModal")
       }
 
-      addbtn.addEventListener("click", getModal)
+      addBtn.addEventListener("click", getModal)
 
       //modal buttons
       let modalYes = document.getElementById("yes")

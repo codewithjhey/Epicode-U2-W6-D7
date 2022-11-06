@@ -79,3 +79,7 @@ svg:hover {
 .displayModal {
   display: block;
 }
+
+.modal-title {
+  font-weight: bold;
+}
