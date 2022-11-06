@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Outfit:wght@300;400;500;700&family=Poppins:wght@300;400;700&display=swap");
+
 body {
   background-color: rgb(253, 255, 255);
+  font-family: Poppins;
 }
 
 audio {
@@ -18,28 +21,61 @@ audio {
 }
 
 .jumbotron {
-  background-image: url(https://blogdoiphone.com/wp-content/uploads/2020/08/AppleMusic-1.jpg);
+  background-image: url(https://www.howtogeek.com/wp-content/uploads/2018/12/xFullSizeRender.jpg.pagespeed.gpjpjwpjwsjsrjrprwricpmd.ic_.TxYRrRKRc9.jpg?height=200p&trim=2,2,2,2);
   background-size: cover;
   animation: fadeIn 2s;
 }
 
-.musicBadge {
+.jumbotron-h1 {
+  font-weight: 500;
+  color: black;
+}
+
+.jumbotron-p {
+  font-weight: 300;
+  color: white;
+}
+.badge {
   position: absolute;
   left: 0;
-  top: 0;
-  background-color: whitesmoke;
+  top: 1px;
 }
 
-@media (min-width: 576px) {
-  ...;
+footer {
+  display: flex;
+  background-color: rgb(61, 61, 61);
+  width: 100%;
+  height: 50px;
+  margin-bottom: 0;
+  font-family: Poppins;
 }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-  ...;
+#icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
 }
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-  .col-xl-3;
+svg:hover {
+  color: blue;
+  transform: scale(1.5);
+}
+
+#addbox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#addtrack {
+  transition: box-shadow 1s ease-in-out;
+}
+#addtrack:hover {
+  box-shadow: rgb(30, 28, 28) 5px 5px 20px;
+}
+.card-body .text-info {
+  text-shadow: black 0px 0px 2px;
+}
+
+.displayModal {
+  display: block;
 }
